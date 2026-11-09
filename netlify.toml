@@ -1,0 +1,7 @@
+# Publish the static EHL B2B package at the site root.
+[build]
+  base = "EHL_B2B_Package_V3"
+  publish = "."
+
+[build.processing.html]
+  pretty_urls = false
